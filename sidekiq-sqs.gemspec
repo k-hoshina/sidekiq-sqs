@@ -17,9 +17,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'activesupport', '> 3.0.0'
-  gem.add_dependency 'sidekiq', '~> 2.3.2'
-  gem.add_dependency 'aws-sdk', '~> 1.6.6'
+  gem.add_dependency 'activesupport'
+  gem.add_dependency 'sidekiq'
+  gem.add_dependency 'aws-sdk'
 
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'rb-fsevent', '~> 0.9.1'
